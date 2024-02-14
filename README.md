@@ -25,6 +25,9 @@ This is a RESTful API for performing CRUD (Create, Read, Update, Delete) operati
 ### User
 
 ##### User Signup
+
+![WhatsApp Image 2024-02-14 at 10 18 13 AM](https://github.com/lokirj7/Zuper-Assessment/assets/87615276/3fe3c88c-511e-4341-bf62-22871736c0cb)
+
 ```json
 {
   "username": LokeshR,
@@ -34,6 +37,8 @@ This is a RESTful API for performing CRUD (Create, Read, Update, Delete) operati
 ```
 
 ##### User Signin
+
+![WhatsApp Image 2024-02-14 at 10 18 13 AM (1)](https://github.com/lokirj7/Zuper-Assessment/assets/87615276/fc28aed7-f006-4307-9501-0eaf689a852d)
 
 ```json
 {
@@ -46,6 +51,8 @@ This is a RESTful API for performing CRUD (Create, Read, Update, Delete) operati
 
 ##### Create Post
 
+![WhatsApp Image 2024-02-14 at 10 18 14 AM](https://github.com/lokirj7/Zuper-Assessment/assets/87615276/e2e8970d-49e3-4957-83f1-704009dd37ee)
+
 ```json
 {
   "title": "Pets",
@@ -56,10 +63,14 @@ This is a RESTful API for performing CRUD (Create, Read, Update, Delete) operati
 
 ##### View All Posts
 Registered users can view all posts
+![WhatsApp Image 2024-02-14 at 10 18 13 AM (2)](https://github.com/lokirj7/Zuper-Assessment/assets/87615276/dcdb4356-bbaf-4e1c-826b-7617b6190f2a)
+
 
 ### Comment
 
 ##### Create Comment
+
+![WhatsApp Image 2024-02-14 at 10 18 14 AM (1)](https://github.com/lokirj7/Zuper-Assessment/assets/87615276/e0aefbce-8231-4b0e-bd05-208fd318ab9d)
 
 ```json
 {
@@ -73,7 +84,7 @@ Registered users can view all posts
 
 1. **Install dependencies:** `npm install`
 2. **Start the server:** `npm start`
-3. The Server will be available at [http://localhost:8001](http://localhost:3000)
+3. The Server will be available at [http://localhost:8001](http://localhost:8001)
 
 ## Dependencies
 
