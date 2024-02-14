@@ -6,7 +6,7 @@ This is a RESTful API for performing CRUD (Create, Read, Update, Delete) operati
 
 ### Users
 
-- `GET /users/{id}`: Get user by ID.
+- `GET /users/{username}`: Get user by ID.
 - `POST /users`: Create a new user.
 
 ### Posts
@@ -24,29 +24,47 @@ This is a RESTful API for performing CRUD (Create, Read, Update, Delete) operati
 
 ### User
 
+##### User Signup
 ```json
 {
-  "id": 1,
-  "name": "John Doe",
-  "email": "john@example.com"
+  "username": LokeshR,
+  "email": "iamloki765@gmail.com",
+  "password": "lokesh"
+}
+```
+
+##### User Signin
+
+```json
+{
+  "email": "iamloki765@gmail.com",
+  "password": "lokesh"
 }
 ```
 
 ### Post
+
+##### Create Post
+
 ```json
 {
-  "id": 1,
-  "title": "Sample Post",
-  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  "title": "Pets",
+  "body": "Dog",
+  "location": "Chennai."
 }
 ```
 
+##### View All Posts
+Registered users can view all posts
+
 ### Comment
+
+##### Create Comment
+
 ```json
 {
-  "id": 1,
-  "postId": 1,
-  "text": "This is a comment on the sample post."
+  "postId": "65cc441598f1745a55f1feef",
+  "comment": "Beautiful Dog"
 }
 ```
 
@@ -55,7 +73,7 @@ This is a RESTful API for performing CRUD (Create, Read, Update, Delete) operati
 
 1. **Install dependencies:** `npm install`
 2. **Start the server:** `npm start`
-3. The Server will be available at [http://localhost:3000](http://localhost:3000)
+3. The Server will be available at [http://localhost:8001](http://localhost:3000)
 
 ## Dependencies
 
