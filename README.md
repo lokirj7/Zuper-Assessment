@@ -6,19 +6,19 @@ This is a RESTful API for performing CRUD (Create, Read, Update, Delete) operati
 
 ### Users
 
-- `GET /users/{username}`: Get user by ID.
-- `POST /users`: Create a new user.
+- `POST /api/auth/signup`:  Creates a new user account .
+- `POST /api/auth/signin`: Authenticates existing user.
 
-### Posts
+### Create Post
+- `POST /api/posts`:Add a new Posts (Only Signin user Can add new posts). 
 
-- `GET /posts`: Get all posts.
-- `GET /posts/{id}`: Get post by ID.
-- `POST /posts`: Create a new post.
+### View All Posts
 
-### Comments
+- `GET /api/user/{Signup_user}`: Get all posts(Only Signup user can see all posts).
 
-- `GET /posts/{postId}/comments`: Get all comments for a specific post.
-- `POST /posts/{postId}/comments`: Add a new comment to a post.
+### Create Comments
+
+- `PUT /api/user/{username}`: Add a new comment to a Specified post(Postid:).
 
 ## Request and Response Formats
 
@@ -79,6 +79,10 @@ Registered users can view all posts
 }
 ```
 
+## Connect With MongoAtlas
+1.Navigate to the `src/config` directory in This project.
+2.Locate the `db.js` file within the config directory.
+3.Replace the placeholder value in `mongoURI` with your actual `MongoDB Atlas connection string`.
 
 ## Running the API
 
