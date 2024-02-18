@@ -80,9 +80,9 @@ Registered users can view all posts
 ```
 
 ## Connect With MongoAtlas
-1.Navigate to the `src/config` directory in This project.
-2.Locate the `db.js` file within the config directory.
-3.Replace the placeholder value in `mongoURI` with your actual `MongoDB Atlas connection string`.
+1. **Navigate to the `src/config` directory in This project.
+2. **Locate the `db.js` file within the config directory.
+3. Replace the placeholder value in `mongoURI` with your actual `MongoDB Atlas connection string`.
 
 ## Running the API
 
